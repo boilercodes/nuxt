@@ -10,8 +10,8 @@
     "test:e2e": "start-server-and-test preview http://127.0.0.1:3000/ 'cypress open'",
     "test:e2e:ci": "start-server-and-test preview http://127.0.0.1:3000/ 'cypress run'",
     "typecheck": "nuxi typecheck",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --max-warnings 0 --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.html,.css,.scss --max-warnings 0 --ignore-path .gitignore",
+    "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.html,.css,.scss --fix --ignore-path .gitignore",
     "prepare": "husky install"
   },
   "devDependencies": {
@@ -34,6 +34,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
     "jsdom": "^19.0.0",
+    "lint-staged": "^12.4.1",
     "nuxt": "3.0.0-rc.1",
     "nuxt-windicss": "^2.3.1",
     "prettier": "^2.6.2",
@@ -48,5 +49,10 @@
   "dependencies": {
     "@pinia/nuxt": "^0.1.8",
     "pinia": "^2.0.13"
+  },
+  "lint-staged": {
+    "**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,css,scss}": [
+      "npm run lint"
+    ]
   }
 }
