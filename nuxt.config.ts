@@ -3,12 +3,9 @@ import { defineNuxtConfig } from "nuxt";
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   srcDir: "src/",
-  modules: [
-    "@nuxtjs/color-mode",
-    "@vueuse/nuxt",
-    "nuxt-windicss",
-    "unplugin-icons/nuxt",
-  ],
+  buildModules: ["@pinia/nuxt", "@vueuse/nuxt", "nuxt-windicss"],
+  modules: ["@nuxtjs/color-mode"],
+  css: ["assets/css/base.scss"],
   colorMode: {
     classSuffix: "",
   },
