@@ -6,7 +6,6 @@ on:
       - main
 
 permissions:
-  actions: write
   contents: write
 
 jobs:
@@ -20,7 +19,6 @@ jobs:
         with:
           # by default, it uses a depth of 1
           # this fetches all history so that we can read each commit
-          persist-credentials: false
           fetch-depth: 0
 
       - name: Rename the project
