@@ -6,6 +6,5 @@ export default defineNuxtConfig({
   buildModules: ["@pinia/nuxt", "@vueuse/nuxt", "nuxt-windicss"],
   modules: ["@nuxtjs/color-mode"],
 
-  css: ["assets/css/base.scss"],
   colorMode: { classSuffix: "" },
 });
