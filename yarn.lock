@@ -487,7 +487,7 @@
     unimport "^0.1.6"
     untyped "^0.4.4"
 
-"@nuxt/kit@^3.0.0-rc.3":
+"@nuxt/kit@^3.0.0-rc.2", "@nuxt/kit@^3.0.0-rc.3":
   version "3.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0-rc.3.tgz#9bbedf5be268578d4002766be8eb59b976892cc6"
   integrity sha512-aD993HKXZ76cwxkM2LCwWRQaOI3RjLCg/kj+8ZS6qN4VrpwrZp4xM59YYIYs3/Vze4OG3D4+0gr0u5zdgf8v8g==
@@ -6341,7 +6341,7 @@ postcss@7.x.x:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.1.10, postcss@^8.4.12:
+postcss@^8.1.10:
   version "8.4.12"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.12.tgz#1e7de78733b28970fa4743f7da6f3763648b1905"
   integrity sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==
@@ -7851,18 +7851,6 @@ vite-plugin-windicss@^1.8.4:
     kolorist "^1.5.1"
     windicss "^3.5.1"
 
-vite@^2.9.5:
-  version "2.9.5"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.5.tgz#08ef37ac7a6d879c96f328b791732c9a00ea25ea"
-  integrity sha512-dvMN64X2YEQgSXF1lYabKXw3BbN6e+BL67+P3Vy4MacnY+UzT1AfkHiioFSi9+uiDUiaDy7Ax/LQqivk6orilg==
-  dependencies:
-    esbuild "^0.14.27"
-    postcss "^8.4.12"
-    resolve "^1.22.0"
-    rollup "^2.59.0"
-  optionalDependencies:
-    fsevents "~2.3.2"
-
 vite@^2.9.8:
   version "2.9.9"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.9.tgz#8b558987db5e60fedec2f4b003b73164cb081c5e"
@@ -7875,10 +7863,10 @@ vite@^2.9.8:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitest@^0.10.5:
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.10.5.tgz#f2cd782a8f72889d4324a809101ada9e9f424a67"
-  integrity sha512-4qXdNbHwAd9YcsztJoVMWUQGcMATVlY9Xd95I3KQ2JJwDLTL97f/jgfGRotqptvNxdlmme5TBY0Gv+l6+JSYvA==
+vitest@^0.12.6:
+  version "0.12.6"
+  resolved "https://registry.yarnpkg.com/vitest/-/vitest-0.12.6.tgz#9de2cca78e97effe5395230486ebd3830d0721dd"
+  integrity sha512-YWbCTv0XKBuBw5YtuW/iufuguoi8QhGpYyi2g57Oo7akpscMkkWTAaZGgY0ux1oJJtO/pc/8GFt0EF32WFBUUQ==
   dependencies:
     "@types/chai" "^4.3.1"
     "@types/chai-subset" "^1.3.3"
@@ -7886,7 +7874,7 @@ vitest@^0.10.5:
     local-pkg "^0.4.1"
     tinypool "^0.1.3"
     tinyspy "^0.3.2"
-    vite "^2.9.7"
+    vite "^2.9.8"
 
 vscode-jsonrpc@6.0.0:
   version "6.0.0"
