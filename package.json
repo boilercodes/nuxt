@@ -16,8 +16,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@cypress/vue": "^3.1.1",
-    "@headlessui/vue": "^1.6.0",
+    "@cypress/vue": "^3.1.2",
+    "@headlessui/vue": "^1.6.1",
     "@iconify/vue": "^3.2.1",
     "@nuxt/test-utils-edge": "^3.0.0-rc.2-27525415.a8d42d5",
     "@nuxt/types": "^2.15.8",
@@ -25,11 +25,11 @@
     "@nuxtjs/color-mode": "^3.0.2",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
-    "@vueuse/core": "^8.3.1",
-    "@vueuse/nuxt": "^8.3.1",
+    "@vueuse/core": "^8.4.2",
+    "@vueuse/nuxt": "^8.4.2",
     "c8": "^7.11.2",
     "cypress": "^9.6.0",
-    "eslint": "^8.14.0",
+    "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-nuxt": "^3.2.0",
@@ -44,12 +44,12 @@
     "sass": "^1.51.0",
     "start-server-and-test": "^1.14.0",
     "typescript": "^4.6.4",
-    "vitest": "^0.10.2",
+    "vitest": "^0.10.5",
     "vue-tsc": "^0.34.11"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.1.8",
-    "pinia": "^2.0.13"
+    "@pinia/nuxt": "^0.1.9",
+    "pinia": "^2.0.14"
   },
   "lint-staged": {
     "**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html}": [
