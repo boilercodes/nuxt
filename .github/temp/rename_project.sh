@@ -22,13 +22,13 @@ title="$(TitleCaseConverter "$title")"
 repo="$author/$name"
 
 # Change LICENSE
-sed -i "s|rmenai-blueprints/nuxt|$name|g" LICENSE # Separator is |
+sed -i "s|boilercodes/nuxt|$name|g" LICENSE # Separator is |
 
 # Change SECURITY.md
 sed -i "s/rmenai/$author/g" SECURITY.md
 
 # Change .github/pull_request_template.md
-sed -i "s|rmenai-blueprints/nuxt|$repo|g" .github/pull_request_template.md
+sed -i "s|boilercodes/nuxt|$repo|g" .github/pull_request_template.md
 
 # Change README.md
 cp -f .github/temp/README.md README.md # Override file
