@@ -4,8 +4,7 @@ This is our fully-featured, simple to use template for new Nuxt projects. Not on
 get started, from the basics to the most advanced features, but it also keeps everything organized through modern coding
 conventions.
 
-We recommend using Netlify or Vercel as your web hosting provider. You can check out a deployment of our
-template [here][website].
+We recommend using Netlify or Vercel as your web hosting provider. You can check out our template [here][website].
 
 <!-- Table of Contents -->
 
