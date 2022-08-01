@@ -1,9 +1,9 @@
 <script setup lang="ts">
 useHead({
-  title: "Welcome",
+  title: "Home",
 });
 </script>
 
 <template>
-  <Welcome />
+  <Home />
 </template>
