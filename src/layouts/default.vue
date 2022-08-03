@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  titleTemplate: "Nuxt - %s",
+  titleTemplate: "%s",
   htmlAttrs: { lang: "en" },
 });
 </script>
