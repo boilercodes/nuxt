@@ -23,8 +23,8 @@
     "@nuxtjs/color-mode": "^3.1.4",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/tailwindcss": "^5.3.1",
-    "@vueuse/core": "^9.0.2",
-    "@vueuse/nuxt": "^9.0.2",
+    "@vueuse/core": "^9.1.0",
+    "@vueuse/nuxt": "^9.1.0",
     "c8": "^7.12.0",
     "cypress": "^10.3.1",
     "eslint": "^8.20.0",
@@ -39,11 +39,11 @@
     "postcss-custom-properties": "^12.1.8",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13",
-    "sass": "^1.54.0",
+    "sass": "^1.54.3",
     "start-server-and-test": "^1.14.0",
     "typescript": "^4.7.4",
     "vitest": "^0.21.0",
-    "vue-tsc": "^0.39.2"
+    "vue-tsc": "^0.39.5"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.3.1",
