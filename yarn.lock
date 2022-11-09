@@ -320,10 +320,10 @@
     tunnel-agent "^0.6.0"
     uuid "^8.3.2"
 
-"@cypress/vue@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@cypress/vue/-/vue-4.2.0.tgz#fc8c0161f004e9706a31658cb76fcd3a572ec46b"
-  integrity sha512-a+5TCBMwng+UUcFSWxzdJ+Wsvtu+XltUKBQCvidysVvPkPF/c/Z+Geyl+sX7tasKT8KIOW9pI90PIwxzQvQh7A==
+"@cypress/vue@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@cypress/vue/-/vue-5.0.1.tgz#38a8d39e6f0604d4092f81df41609b4a3a0ee41b"
+  integrity sha512-Sy7eh7LUJX8CCMkMp8clGQaro513WXLYeApUKaWVrPGuEgdIYPSbquHDxl77Ei3VGg9PLqwIMU291kfdwOCuLg==
 
 "@cypress/xvfb@^1.2.4":
   version "1.2.4"
