@@ -46,7 +46,7 @@
     "vue-tsc": "^1.0.0"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.3.1",
+    "@pinia/nuxt": "^0.4.6",
     "pinia": "^2.0.21"
   },
   "lint-staged": {
