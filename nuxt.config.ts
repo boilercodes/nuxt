@@ -2,7 +2,9 @@
 export default defineNuxtConfig({
   srcDir: "src",
   imports: { dirs: ["stores"] },
-  modules: ["@nuxtjs/i18n", "@nuxtjs/tailwindcss", "@pinia/nuxt", "@vueuse/nuxt"],
+  modules: ["@nuxtjs/color-mode", "@nuxtjs/i18n", "@nuxtjs/tailwindcss", "@pinia/nuxt", "@vueuse/nuxt"],
+
+  colorMode: { classSuffix: "", storageKey: "theme" },
 
   i18n: {
     detectBrowserLanguage: { cookieKey: "locale" },
