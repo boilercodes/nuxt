@@ -33,11 +33,5 @@
     "*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html}": [
       "eslint --max-warnings 0 --ignore-path .gitignore"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run test:unit:ci"
-    }
   }
 }
