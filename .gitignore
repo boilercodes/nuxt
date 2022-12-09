@@ -19,6 +19,14 @@ coverage
 /cypress/videos/
 /cypress/screenshots/
 
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+test/e2e/artifacts/
+test/e2e/report/
+test/unit/coverage/
+
 .nuxt/
 nuxt.d.ts
 .nitro
