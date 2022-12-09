@@ -26,6 +26,9 @@ nuxt.d.ts
 .output/
 .env
 
+# Husky.
+.husky/
+
 ### Editors template
 .idea/
 .vscode/

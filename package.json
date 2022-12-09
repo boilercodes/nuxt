@@ -8,7 +8,7 @@
     "preview": "nuxt preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.html --max-warnings 0 --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.html --fix --ignore-path .gitignore",
-    "prepare": "nuxt prepare"
+    "prepare": "nuxt prepare && husky install"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
@@ -16,6 +16,8 @@
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "nuxt": "3.0.0",
     "prettier": "^2.8.1",
     "prettier-plugin-tailwindcss": "^0.2.1",
@@ -26,5 +28,16 @@
     "@pinia/nuxt": "^0.4.5",
     "@vueuse/core": "^9.6.0",
     "@vueuse/nuxt": "^9.6.0"
+  },
+  "lint-staged": {
+    "*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html}": [
+      "eslint --max-warnings 0 --ignore-path .gitignore"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test:unit:ci"
+    }
   }
 }
