@@ -3,9 +3,9 @@ import { devices } from "@playwright/test";
 
 // See https://playwright.dev/docs/test-configuration.
 const config: PlaywrightTestConfig = {
-  testDir: "test/e2e",
-  outputDir: "test/e2e/artifacts",
-  snapshotDir: "test/snapshots",
+  testDir: "tests/e2e",
+  outputDir: "tests/e2e/artifacts",
+  snapshotDir: "tests/snapshots",
 
   timeout: 30 * 1000,
   expect: { timeout: 5000 },
@@ -14,7 +14,7 @@ const config: PlaywrightTestConfig = {
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
 
-  reporter: [["html", { outputFolder: "test/e2e/report" }]],
+  reporter: [["html", { outputFolder: "tests/e2e/report" }]],
   use: { trace: "retain-on-failure" },
 
   // Configure projects for major browsers.

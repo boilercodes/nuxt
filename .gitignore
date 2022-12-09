@@ -23,9 +23,9 @@ coverage
 /playwright-report/
 /playwright/.cache/
 
-test/e2e/artifacts/
-test/e2e/report/
-test/unit/coverage/
+tests/e2e/artifacts/
+tests/e2e/report/
+tests/unit/coverage/
 
 .nuxt/
 nuxt.d.ts

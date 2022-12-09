@@ -63,8 +63,8 @@ jobs:
         with:
           name: e2e-results
           path: |
-            test/e2e/report
-            test/e2e/artifacts
+            tests/e2e/report
+            tests/e2e/artifacts
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
@@ -76,5 +76,5 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # Only needed for private repositories.
-          directory: test/unit/coverage
+          directory: tests/unit/coverage
           flags: unittests
