@@ -19,11 +19,11 @@ coverage
 /cypress/videos/
 /cypress/screenshots/
 
-.nuxt
+.nuxt/
 nuxt.d.ts
 .nitro
 .cache
-.output
+.output/
 .env
 
 ### Editors template

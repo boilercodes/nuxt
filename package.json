@@ -6,52 +6,13 @@
     "generate": "nuxt generate",
     "analyze": "nuxt analyze",
     "preview": "nuxt preview",
-    "test:unit": "vitest",
-    "test:unit:ci": "vitest run",
-    "test:e2e": "start-server-and-test preview http://127.0.0.1:3000/ 'cypress open'",
-    "test:e2e:ci": "start-server-and-test preview http://127.0.0.1:3000/ 'cypress run'",
-    "typecheck": "nuxi typecheck",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.html --max-warnings 0 --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.html --fix --ignore-path .gitignore",
-    "prepare": "husky install"
+    "prepare": "nuxt prepare"
   },
   "devDependencies": {
-    "@cypress/vue": "^4.0.0",
-    "@headlessui/vue": "^1.6.7",
-    "@iconify/vue": "^3.2.1",
-    "@nuxt/test-utils-edge": "^3.0.0-rc.2-27525415.a8d42d5",
-    "@nuxtjs/color-mode": "^3.1.4",
-    "@nuxtjs/eslint-config-typescript": "^10.0.0",
-    "@nuxtjs/tailwindcss": "^5.3.1",
-    "@vueuse/core": "^9.0.2",
-    "@vueuse/nuxt": "^9.0.2",
-    "c8": "^7.12.0",
-    "cypress": "^10.3.1",
-    "eslint": "^8.20.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-nuxt": "^3.2.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.1",
-    "jsdom": "^20.0.0",
-    "lint-staged": "^13.0.3",
-    "nuxt": "3.0.0-rc.6",
-    "postcss-custom-properties": "^12.1.8",
-    "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13",
-    "sass": "^1.54.0",
-    "start-server-and-test": "^1.14.0",
-    "typescript": "^4.7.4",
-    "vitest": "^0.20.2",
-    "vue-tsc": "^0.39.2"
+    "@nuxtjs/tailwindcss": "^6.1.3",
+    "nuxt": "3.0.0"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.3.1",
-    "pinia": "^2.0.17"
-  },
-  "lint-staged": {
-    "**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html}": [
-      "npm run lint"
-    ]
+    "@pinia/nuxt": "^0.4.5"
   }
 }
