@@ -61,7 +61,7 @@ jobs:
       - name: Upload e2e test results
         uses: actions/upload-artifact@v3
         with:
-          name: e2e-results
+          name: playwright
           path: |
             tests/e2e/report
             tests/e2e/artifacts
@@ -69,7 +69,7 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: web-build
+          name: build
           path: .output
 
       - name: Upload coverage reports to CodeCov
