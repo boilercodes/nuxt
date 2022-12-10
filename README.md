@@ -25,10 +25,11 @@ the running action ends.
 ### Project
 
 - [Nuxt 3] for building the project.
-- [Playwright] for end-to-end testing.
 - [ESLint] and [Prettier] for code formatting.
+- [Iconify] and [Font Loader] for faster development.
 - [Husky] for pre-commit hooks.
 - [Pinia] for state management.
+- [Playwright] for end-to-end testing.
 - [TailwindCSS] for writing efficient CSS.
 - [Vitest] for unit testing.
 - [VueUse] for useful composition functions.
@@ -51,6 +52,8 @@ Rami Menai - [@menai_rami][twitter] - [rami.menai@outlook.com][email]
 <!-- Packages Links -->
 
 [eslint]: https://eslint.org
+[iconify]: https://icones.js.org
+[font loader]: https://github.com/ivodolenc/nuxt-font-loader
 [husky]: https://typicode.github.io/husky
 [nuxt 3]: https://v3.nuxtjs.org
 [pinia]: https://pinia.vuejs.org
