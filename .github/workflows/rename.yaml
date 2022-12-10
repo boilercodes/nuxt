@@ -10,15 +10,14 @@ permissions:
 
 jobs:
   rename:
-    if: ${{ github.repository != 'boilercodes/nuxt' }}
+    if: ${{ github.repository != 'boilercodes/arduino' }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          # by default, it uses a depth of 1
-          # this fetches all history so that we can read each commit
+          # This fetches all history so that we can read each commit.
           fetch-depth: 0
 
       - name: Rename the project
@@ -40,5 +39,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: ${{ steps.last-commit-message.outputs.msg }}
-          commit_options: '--amend --no-edit'
+          commit_options: "--amend --no-edit"
           push_options: --force

@@ -1,0 +1,12 @@
+{
+  "layout": {
+    "default": {
+      "titleTemplate": "Nuxt · { title }"
+    }
+  },
+  "page": {
+    "unnamed": {
+      "title": "Unnamed page"
+    }
+  }
+}

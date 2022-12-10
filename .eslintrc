@@ -2,26 +2,19 @@
   "root": true,
   "env": {
     "browser": true,
+    "es2022": true,
     "node": true
   },
   "extends": [
     "@nuxtjs/eslint-config-typescript",
-    "plugin:nuxt/recommended",
-    "plugin:prettier/recommended",
-    "prettier"
+    "plugin:prettier/recommended"
   ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "rules": {
     "vue/multi-word-component-names": "off",
     "vue/no-multiple-template-root": "off"
-  },
-  "overrides": [
-    {
-      "files": [
-        "cypress/e2e/**.cy.{js,ts,jsx,tsx}"
-      ],
-      "extends": [
-        "plugin:cypress/recommended"
-      ]
-    }
-  ]
+  }
 }

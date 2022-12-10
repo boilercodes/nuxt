@@ -24,25 +24,22 @@ the running action ends.
 
 ### Project
 
-- [Cypress] for end-to-end testing.
-- [ESLint] and [Prettier] for code formatting.
-- [Husky] for pre-commit hooks.
-- [Iconify] for integrating icons from all sets.
 - [Nuxt 3] for building the project.
+- [ESLint] and [Prettier] for code formatting.
+- [Iconify] and [Font Loader] for faster development.
+- [Husky] for pre-commit hooks.
 - [Pinia] for state management.
-- [Scss] and [TailwindCSS] for writing efficient CSS.
-- [Typescript] for writing efficient code.
-- [Vite] for blazing fast build times.
+- [Playwright] for end-to-end testing.
+- [TailwindCSS] for writing efficient CSS.
 - [Vitest] for unit testing.
-- [Yarn] for managing dependencies.
+- [VueUse] for useful composition functions.
 
 ### GitHub
 
-- [Community Standards] files.
-- [Issues](./.github/ISSUE_TEMPLATE) and [Pull Requests](./.github/pull_request_template.md) templates.
+- [Issues](./.github/ISSUE_TEMPLATE) templates.
 - [Production] and [Preview] environments with automated deployments.
 - [Releases] with auto-generated release notes.
-- [Test](./.github/workflows/test.yaml) and [Deploy](./.github/workflows/deploy.yaml) GitHub workflows.
+- [CI](./.github/workflows/ci.yaml) GitHub workflows.
 
 ## License
 
@@ -54,34 +51,31 @@ Rami Menai - [@menai_rami][twitter] - [rami.menai@outlook.com][email]
 
 <!-- Packages Links -->
 
-[cypress]: https://www.cypress.io/
-[eslint]: https://eslint.org/
-[husky]: https://typicode.github.io/husky/
-[iconify]: https://iconify.design/
-[nuxt 3]: https://v3.nuxtjs.org/
-[pinia]: https://pinia.vuejs.org/
-[prettier]: https://prettier.io/
-[scss]: https://sass-lang.com/
-[tailwindcss]: https://tailwindcss.com/
-[typescript]: https://www.typescriptlang.org/
-[vite]: https://vitejs.dev/
-[vitest]: https://vitest.dev/
-[yarn]: https://yarnpkg.com/
+[eslint]: https://eslint.org
+[iconify]: https://icones.js.org
+[font loader]: https://github.com/ivodolenc/nuxt-font-loader
+[husky]: https://typicode.github.io/husky
+[nuxt 3]: https://v3.nuxtjs.org
+[pinia]: https://pinia.vuejs.org
+[playwright]: https://playwright.dev
+[prettier]: https://prettier.io
+[tailwindcss]: https://tailwindcss.com
+[vitest]: https://vitest.dev
+[vueuse]: https://vueuse.org
 
 <!-- Repository links -->
 
-[community standards]: https://github.com/boilercodes/nuxt/community
 [production]: https://github.com/boilercodes/nuxt/deployments/activity_log?environment=Production
 [preview]: https://github.com/boilercodes/nuxt/deployments/activity_log?environment=Preview
-[releases]: https://github.com/boilercodes/nuxt/releases/
+[releases]: https://github.com/boilercodes/nuxt/releases
 [use this template]: https://github.com/boilercodes/nuxt/generate
-[website]: https://boilercodes-nuxt.netlify.app/
+[website]: https://boilercodes-nuxt.netlify.app
 
 <!-- Shields.io links -->
 
 [github license]: https://img.shields.io/badge/license-MIT-blue.svg
 [netlify deploy]: https://img.shields.io/netlify/061c767f-4112-4673-9e67-819888b7ab20
-[test action]: https://github.com/boilercodes/nuxt/actions/workflows/test.yaml/badge.svg
+[test action]: https://github.com/boilercodes/nuxt/actions/workflows/ci.yaml/badge.svg
 
 <!-- Social Media links -->
 

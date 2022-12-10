@@ -1,4 +1,4 @@
-# [{title}][website] &middot; [![GitHub license]](./LICENSE) ![Test Action] ![Netlify Deploy]
+# [{title}][website] &middot; [![GitHub license]](./LICENSE) ![Test Action]
 
 <!-- Table of Contents -->
 
@@ -25,20 +25,30 @@ The requirements are:
    ```shell
    yarn
    ```
+2. Optionally, you can install playwright to run the e2e tests
+   ```shell
+   npx playwright install --with-deps
+   ```
+
+## Environment Variables
+
+To run this project, create a `.env` file in the root directory and add the following environment variables:
+
+| Variable | Description             | Default |
+|----------|-------------------------|---------|
+| SITE_URL | The url of your website | ""      |
 
 ## Usage
 
 In order to start the website, you will need to run the NPM scripts that are available in the package.json file,
 using `yarn` or `npm run`. Here are the most important ones:
 
-- **dev**: Starts the development server in http://localhost:3000/. The app will automatically reload if you change any
-  of the source files.
-- **build**: Creates a `.output` directory with all your application, server and dependencies ready for production.
-- **generate**: Generates a static build of the website. The build artifacts will be stored in the `dist` directory.
-- **preview**: Starts a server to preview your Nuxt application after running the `build` command.
-- **test:unit**: Runs the unit tests using [Vitest].
-- **test:e2e**: Runs the end-to-end tests using [Cypress].
-- **lint**: Lints the project using [ESLint].
+- **`dev`**: Starts the development server in http://localhost:3000.
+- **`build`**: Builds your application for production. The output folder is `.output`.
+- **`preview`**: Previews the production build from `.output` locally.
+- **`test:unit`**: Runs the unit tests using [Vitest].
+- **`test:e2e`**: Runs the end-to-end tests using [Playwright].
+- **`lint`**: Lints the project using [ESLint].
 
 ## License
 
@@ -46,18 +56,17 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 
 <!-- Packages links -->
 
-[cypress]: https://www.cypress.io
 [eslint]: https://eslint.org
 [node.js]: https://nodejs.org/en/
+[playwright]: https://playwright.dev
 [vitest]: https://vitest.dev
 [yarn]: https://yarnpkg.com/
 
 <!-- Repository links -->
 
-[website]: https://{author}-{name}.netlify.app/
+[website]: https://github.com/{repo}
 
 <!-- Shields.io links -->
 
 [github license]: https://img.shields.io/badge/license-MIT-blue.svg
-[netlify deploy]: https://img.shields.io/netlify/your-project-id-here
-[test action]: https://github.com/{repo}/actions/workflows/test.yaml/badge.svg
+[test action]: https://github.com/{repo}/actions/workflows/ci.yaml/badge.svg

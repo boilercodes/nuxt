@@ -19,11 +19,19 @@ coverage
 /cypress/videos/
 /cypress/screenshots/
 
-.nuxt
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+tests/e2e/artifacts/
+tests/e2e/report/
+tests/unit/coverage/
+
+.nuxt/
 nuxt.d.ts
 .nitro
 .cache
-.output
+.output/
 .env
 
 ### Editors template
