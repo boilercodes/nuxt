@@ -30,6 +30,14 @@ The requirements are:
    npx playwright install --with-deps
    ```
 
+## Environment Variables
+
+To run this project, create a `.env` file in the root directory and add the following environment variables:
+
+| Variable | Description             | Default |
+|----------|-------------------------|---------|
+| SITE_URL | The url of your website | ""      |
+
 ## Usage
 
 In order to start the website, you will need to run the NPM scripts that are available in the package.json file,

@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   colorMode: { classSuffix: "", storageKey: "theme" },
 
   i18n: {
-    baseUrl: process.env.SITE_URL || "http://localhost:3000", // For SEO.
+    baseUrl: process.env.SITE_URL || "", // For SEO.
     detectBrowserLanguage: { cookieKey: "locale" },
     langDir: "assets/locales",
     defaultLocale: "en",
@@ -24,7 +24,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      siteUrl: process.env.SITE_URL || "http://localhost:3000",
+      siteUrl: process.env.SITE_URL || "",
     },
   },
 });
