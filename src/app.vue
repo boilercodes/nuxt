@@ -9,7 +9,7 @@ const route = useRoute();
 const { t } = useI18n();
 
 const pageLayout = `layout.${route.meta.layout ?? "default"}.titleTemplate`;
-const pageTitle = `page.${route.meta.title ?? "unknown"}.title`;
+const pageTitle = `page.${route.meta.title ?? "unnamed"}.title`;
 
 // Dynamically change the page title based on the locale.
 const title = computed(() => t(pageLayout, { title: t(pageTitle) }));
