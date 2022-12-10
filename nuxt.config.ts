@@ -2,7 +2,15 @@
 export default defineNuxtConfig({
   srcDir: "src",
   imports: { dirs: ["stores"] },
-  modules: ["@nuxtjs/color-mode", "@nuxtjs/i18n", "@nuxtjs/tailwindcss", "@pinia/nuxt", "@vueuse/nuxt"],
+  modules: [
+    "@nuxtjs/color-mode", // https://color-mode.nuxtjs.org
+    "@nuxtjs/i18n", // https://v8.i18n.nuxtjs.org
+    "@nuxtjs/tailwindcss", // https://tailwindcss.com
+    "@pinia/nuxt", // https://pinia.vuejs.org
+    "@vueuse/nuxt", // https://vueuse.org/guide
+    "nuxt-font-loader", // https://github.com/ivodolenc/nuxt-font-loader
+    "nuxt-icon", // https://github.com/nuxt-modules/icon
+  ],
 
   colorMode: { classSuffix: "", storageKey: "theme" },
 
