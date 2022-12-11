@@ -1,4 +1,9 @@
 {
+  "meta": {
+    "head": {
+      "description": "A revolutionary website built with Nuxt 3."
+    }
+  },
   "layout": {
     "default": {
       "titleTemplate": "Nuxt · { title }"

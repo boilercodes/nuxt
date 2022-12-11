@@ -20,7 +20,7 @@ const title = computed(() => t(pageLayout, { title: t(pageTitle) }));
   <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
     <Head>
       <Title>{{ title }}</Title>
-      <Meta name="description" content="A revolutionary website built with Nuxt 3." />
+      <Meta name="description" :content="$t('meta.head.description')" />
 
       <template v-if="config.public.siteUrl">
         <Link v-for="link in head.link" :key="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
