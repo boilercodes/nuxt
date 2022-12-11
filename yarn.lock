@@ -4969,12 +4969,10 @@ nuxi@3.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-font-loader@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/nuxt-font-loader/-/nuxt-font-loader-2.2.1.tgz#feac82c5f4f70c1a2587e4aa45252244e30611a5"
-  integrity sha512-RKNkaOMxi7xO6dwhSC1G3wdoBdkZC+78VFw3wJrYM+NkNboKNU1C+Kky8zYyPYxjhhMt21iIC9rqO4Mmm+irpQ==
-  dependencies:
-    "@nuxt/kit" "^3.0.0"
+nuxt-font-loader@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/nuxt-font-loader/-/nuxt-font-loader-2.2.2.tgz#a2c6e9fc98e597e5b2b3e1f8245d18d33f44dc5c"
+  integrity sha512-6H7CS9t5OMVsCfzxDTZadOxbj9wpsUZoknvlp/7+UuwI83pZbdm6dDbztAkGkKHBDNcvXrBGokQuJJl2VhekMg==
 
 nuxt-icon@^0.1.8:
   version "0.1.8"
