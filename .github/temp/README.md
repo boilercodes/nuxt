@@ -1,4 +1,4 @@
-# [{title}][website] &middot; [![GitHub license]](./LICENSE) ![Test Action]
+# [{title}][website] &middot; [![GitHub license]](./LICENSE) ![CI Action]
 
 <!-- Table of Contents -->
 
@@ -69,4 +69,4 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 <!-- Shields.io links -->
 
 [github license]: https://img.shields.io/badge/license-MIT-blue.svg
-[test action]: https://github.com/{repo}/actions/workflows/ci.yaml/badge.svg
+[ci action]: https://github.com/{repo}/actions/workflows/ci.yaml/badge.svg

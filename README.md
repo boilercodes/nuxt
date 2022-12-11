@@ -1,4 +1,4 @@
-# [Nuxt Template][website] &middot; [![GitHub license]](./LICENSE) ![Test Action] ![Netlify Deploy]
+# [Nuxt Template][website] &middot; [![GitHub license]](./LICENSE) ![CI Action] ![Netlify Deploy]
 
 This is our fully-featured, simple to use template for new Nuxt projects. Not only it includes everything your need to
 get started, from the basics to the most advanced features, but it also keeps everything organized through modern coding
@@ -75,7 +75,7 @@ Rami Menai - [@menai_rami][twitter] - [rami.menai@outlook.com][email]
 
 [github license]: https://img.shields.io/badge/license-MIT-blue.svg
 [netlify deploy]: https://img.shields.io/netlify/061c767f-4112-4673-9e67-819888b7ab20
-[test action]: https://github.com/boilercodes/nuxt/actions/workflows/ci.yaml/badge.svg
+[ci action]: https://github.com/boilercodes/nuxt/actions/workflows/ci.yaml/badge.svg
 
 <!-- Social Media links -->
 
